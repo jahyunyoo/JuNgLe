@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+        <meta property=“og:title” content=“JuNgLe - Profile Link” />
+        <meta property=“og:description” content=“Where is the Love?” />
+        <meta property=“og:image” content=“유탈리.jpg” />
+        <title>“JuNgLe - profile link </title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body{
+                background-color: rgb(250, 190, 23);
+            }
+            .profile{
+                width: 100px;
+                height: 100px;
+                background-color: rgb(153, 249, 153);
+                border-radius: 100%;
+                border: 3px solid black;
+                background-image: url('유탈리.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .main{
+                color: white;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap{
+                
+                width: 300px;
+                margin: 30px auto 0px auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap>a{
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                color: black;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap>a:hover{
+                background-color: rgb(153, 249, 153);
+                font-size: 15px;
+            }
+
+        </style>
+   </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+       <h1 class="main">“JuNgLe"</h1>
+       <p class="sub">where is the Love?</p>
+       <a target="_blank" href="https://www.instagram.com/yoojahyun/">휴먼 유자현</a>
+        <a target="_blank" href="https://blog.naver.com/hihooho">낭만트레블러유자네</a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCTTfNkpGYobkrSoOqbUdpFg/featured">유자유의일상</a>
+        <a target="_blank" href="https://namecard.kakao.com/jungler">정글 오픈채팅</a>
+        </div>
+       
+    </body>
+</html>
